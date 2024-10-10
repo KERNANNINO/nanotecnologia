@@ -1,2 +1,0 @@
-# nanotecnologia
-nanotecnologia
