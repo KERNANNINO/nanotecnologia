@@ -1,0 +1,91 @@
+/* styles.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #e6f0f3; /* Fondo azul claro, calmante y moderno */
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #004d66; /* Azul oscuro, simbolizando tecnología avanzada */
+}
+
+.logo img {
+  margin-left: 20px;
+}
+
+.menu-bar {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.menu-bar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.menu-bar ul li {
+  background-color: #00bfff; /* Fondo azul brillante para cada opción del menú */
+  color: white; /* Texto blanco para contraste */
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 0; /* Borde recto para crear un efecto cuadrado */
+  border: 2px solid #004d66; /* Borde azul oscuro */
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+}
+
+.menu-bar ul li a {
+  color: white; /* Mantener el texto blanco */
+  text-decoration: none;
+}
+
+.menu-bar ul li:hover {
+  background-color: #33cc99; /* Verde menta al pasar el mouse */
+  border-color: #33cc99; /* Cambiar también el color del borde al hacer hover */
+}
+
+.title {
+  text-align: center;
+  padding-top: 50px;
+  color: #008080; /* Verde-azulado para el título, que representa tanto la medicina como la tecnología */
+}
+
+.content h2 {
+  color: #006699; /* Azul oscuro para los subtítulos, relacionado con la ciencia y la precisión */
+}
+
+.content p {
+  color: #333333; /* Gris oscuro para el texto general, fácil de leer y profesional */
+}
+
+section {
+  margin: 20px auto;
+  max-width: 900px;
+  background-color: #ffffff; /* Blanco limpio para los bloques de contenido, relacionado con la precisión médica */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera para darle profundidad */
+}
+
+#video iframe {
+  display: block;
+  margin: 0 auto;
+  border: 2px solid #00bfff; /* Borde azul brillante alrededor del video, en línea con la temática tecnológica */
+  border-radius: 8px;
+}
+
+#opinion {
+  background-color: #f2f8fa; /* Fondo azul muy claro para la sección de opinión, suave y calmante */
+  padding: 30px;
+  border-radius: 8px;
+  color: #006666; /* Verde-azulado suave, ideal para temas relacionados con la salud */
+}
