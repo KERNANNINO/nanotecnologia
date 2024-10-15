@@ -3,6 +3,9 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   background-color: #e6f0f3; 
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
 header {
@@ -88,4 +91,22 @@ section {
   padding: 30px;
   border-radius: 8px;
   color: #006666; 
+}
+.derechos {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.social-icons a img {
+  border-radius: 50%;
+  transition: transform 0.3s;
+}
+.social-icons a img:hover {
+  transform: scale(1.1);
 }
